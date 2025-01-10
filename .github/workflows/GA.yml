@@ -30,8 +30,8 @@ jobs:
 
       - name: build and push docker image
         run: |
-            docker build -t robertvu/docker-intro-gh .
-            docker push robertvu/docker-intro-gh
+            docker build -t roberttvu/docker-intro-gh .
+            docker push roberttvu/docker-intro-gh
 
       
 
